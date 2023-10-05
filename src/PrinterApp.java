@@ -8,6 +8,11 @@ public class PrinterApp {
 		//Provide the name of the creator of the Printer App.
 		String creator = "Hongqian Li";
 		System.out.println("This app is made by: " + creator);
+		
+		//Declare two numeric variables named number1 and number2
+		int number1 = 2;
+		int number2 = 3;
+		
 	}
 
 }
