@@ -13,6 +13,8 @@ public class PrinterApp {
 		int number1 = 2;
 		int number2 = 3;
 		
+		//Print the Value of number1
+		System.out.println(number1);
 	}
 
 }
