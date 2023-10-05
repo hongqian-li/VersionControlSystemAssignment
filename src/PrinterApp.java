@@ -10,18 +10,27 @@ public class PrinterApp {
 		System.out.println("This app is made by: " + creator);
 		
 		//Declare two numeric variables named number1 and number2
-		int number1 = 2;
-		int number2 = 3;
+		int number1 = 5;
+		int number2 = 2;
 		
 		//Print the Value of number1
 		System.out.println(number1);
 		
-		//Print "The value of number1 is 2"
+		//Print "The value of number1 is 5"
 		System.out.println("The value of number1 is " + number1);
 		
-		//Print "The value of number2 is 3"
+		//Print "The value of number2 is 2"
 		System.out.println("The value of number2 is " + number2);
-
+		
+		//Declare an integer variable called multiplication
+		int multiplication;
+		
+		//Multiply number1 and number2 and assign the result to the multiplication variable.
+		multiplication = number1 * number2;
+		
+		//Print "[number1] * [number2] = [multiplication]".
+        System.out.println(number1 + " * " + number2 + " = " + multiplication);
+		
 	}
 
 }
