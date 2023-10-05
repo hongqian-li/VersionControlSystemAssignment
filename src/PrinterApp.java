@@ -30,6 +30,16 @@ public class PrinterApp {
 		
 		//Print "[number1] * [number2] = [multiplication]".
         System.out.println(number1 + " * " + number2 + " = " + multiplication);
+        
+        //Repeat multiplication for addition, division and substraction.
+        int addition = number1 + number2;
+        int subtraction = number1 - number2;
+        int division = number1/number2; 
+        
+        System.out.println(number1 + " + " + number2 + " = " + addition);
+        System.out.println(number1 + " - " + number2 + " = " + subtraction);
+        System.out.println(number1 + " / " + number2 + " = " + division);
+        
 		
 	}
 
